@@ -6,7 +6,7 @@ import org.orekit.data.DirectoryCrawler;
 
 public class Main {
     public static void main(String[] args) {
-        final File orekitData = new File("C:\\Users\\vasis\\OneDrive\\Documents\\orekit-data-main\\orekit-data-main");
+        final File orekitData = new File("file path");
         final DataProvider dirCrawler = new DirectoryCrawler(orekitData);
         DataContext.getDefault().getDataProvidersManager().addProvider(dirCrawler);
 
